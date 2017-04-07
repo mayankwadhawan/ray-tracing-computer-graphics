@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>mainsrc_proj2.cpp</in>
+    </df>
+    <logicalFolder name="src" displayName="src" projectFiles="true" root="..">
+      <logicalFolder name="librt" displayName="librt" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../librt/include/Camera.h</itemPath>
+          <itemPath>../librt/include/Intersection.h</itemPath>
+          <itemPath>../librt/include/Light.h</itemPath>
+          <itemPath>../librt/include/LinearSolver.h</itemPath>
+          <itemPath>../librt/include/Lists.h</itemPath>
+          <itemPath>../librt/include/RGBR_f.h</itemPath>
+          <itemPath>../librt/include/Ray.h</itemPath>
+          <itemPath>../librt/include/RayTracer.h</itemPath>
+          <itemPath>../librt/include/Scene.h</itemPath>
+          <itemPath>../librt/include/Shader.h</itemPath>
+          <itemPath>../librt/include/Sphere.h</itemPath>
+          <itemPath>../librt/include/Surface.h</itemPath>
+          <itemPath>../librt/include/Triangle.h</itemPath>
+          <itemPath>../librt/include/defs.h</itemPath>
+          <itemPath>../librt/include/utilities.h</itemPath>
+        </logicalFolder>
+        <itemPath>../librt/Camera.cpp</itemPath>
+        <itemPath>../librt/Intersection.cpp</itemPath>
+        <itemPath>../librt/Light.cpp</itemPath>
+        <itemPath>../librt/LinearSolver.cpp</itemPath>
+        <itemPath>../librt/RGBR_f.cpp</itemPath>
+        <itemPath>../librt/Ray.cpp</itemPath>
+        <itemPath>../librt/RayTracer.cpp</itemPath>
+        <itemPath>../librt/Scene.cpp</itemPath>
+        <itemPath>../librt/Shader.cpp</itemPath>
+        <itemPath>../librt/Sphere.cpp</itemPath>
+        <itemPath>../librt/Surface.cpp</itemPath>
+        <itemPath>../librt/Triangle.cpp</itemPath>
+        <itemPath>../librt/utilities.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="libst" displayName="libst" projectFiles="true">
+        <logicalFolder name="ext" displayName="ext" projectFiles="true">
+          <logicalFolder name="freetype" displayName="freetype" projectFiles="true">
+            <logicalFolder name="include" displayName="include" projectFiles="true">
+              <logicalFolder name="freetype" displayName="freetype" projectFiles="true">
+                <logicalFolder name="config" displayName="config" projectFiles="true">
+                  <itemPath>../libst/ext/freetype/include/freetype/config/ftconfig.h</itemPath>
+                  <itemPath>../libst/ext/freetype/include/freetype/config/ftheader.h</itemPath>
+                  <itemPath>../libst/ext/freetype/include/freetype/config/ftoption.h</itemPath>
+                  <itemPath>../libst/ext/freetype/include/freetype/config/ftstdlib.h</itemPath>
+                </logicalFolder>
+                <itemPath>../libst/ext/freetype/include/freetype/freetype.h</itemPath>
+                <itemPath>../libst/ext/freetype/include/freetype/fterrdef.h</itemPath>
+                <itemPath>../libst/ext/freetype/include/freetype/fterrors.h</itemPath>
+                <itemPath>../libst/ext/freetype/include/freetype/ftimage.h</itemPath>
+                <itemPath>../libst/ext/freetype/include/freetype/ftmoderr.h</itemPath>
+                <itemPath>../libst/ext/freetype/include/freetype/ftsystem.h</itemPath>
+                <itemPath>../libst/ext/freetype/include/freetype/fttypes.h</itemPath>
+              </logicalFolder>
+              <itemPath>../libst/ext/freetype/include/ft2build.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="glew" displayName="glew" projectFiles="true">
+            <logicalFolder name="include" displayName="include" projectFiles="true">
+              <logicalFolder name="GL" displayName="GL" projectFiles="true">
+                <itemPath>../libst/ext/glew/include/GL/glew.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../libst/include/STColor3f.h</itemPath>
+          <itemPath>../libst/include/STColor4f.h</itemPath>
+          <itemPath>../libst/include/STColor4ub.h</itemPath>
+          <itemPath>../libst/include/STFont.h</itemPath>
+          <itemPath>../libst/include/STImage.h</itemPath>
+          <itemPath>../libst/include/STJoystick.h</itemPath>
+          <itemPath>../libst/include/STMatrix4.h</itemPath>
+          <itemPath>../libst/include/STMatrix4.inl</itemPath>
+          <itemPath>../libst/include/STPoint2.h</itemPath>
+          <itemPath>../libst/include/STPoint2.inl</itemPath>
+          <itemPath>../libst/include/STPoint3.h</itemPath>
+          <itemPath>../libst/include/STPoint3.inl</itemPath>
+          <itemPath>../libst/include/STShaderProgram.h</itemPath>
+          <itemPath>../libst/include/STShape.h</itemPath>
+          <itemPath>../libst/include/STTexture.h</itemPath>
+          <itemPath>../libst/include/STTimer.h</itemPath>
+          <itemPath>../libst/include/STTriangleMesh.h</itemPath>
+          <itemPath>../libst/include/STUtil.h</itemPath>
+          <itemPath>../libst/include/STVector2.h</itemPath>
+          <itemPath>../libst/include/STVector2.inl</itemPath>
+          <itemPath>../libst/include/STVector3.h</itemPath>
+          <itemPath>../libst/include/STVector3.inl</itemPath>
+          <itemPath>../libst/include/st.h</itemPath>
+          <itemPath>../libst/include/stForward.h</itemPath>
+          <itemPath>../libst/include/stgl.h</itemPath>
+          <itemPath>../libst/include/stglut.h</itemPath>
+          <itemPath>../libst/include/tiny_obj_loader.h</itemPath>
+        </logicalFolder>
+        <itemPath>../libst/STColor3f.cpp</itemPath>
+        <itemPath>../libst/STColor4f.cpp</itemPath>
+        <itemPath>../libst/STColor4ub.cpp</itemPath>
+        <itemPath>../libst/STFont.cpp</itemPath>
+        <itemPath>../libst/STImage.cpp</itemPath>
+        <itemPath>../libst/STImage_jpeg.cpp</itemPath>
+        <itemPath>../libst/STImage_png.cpp</itemPath>
+        <itemPath>../libst/STImage_ppm.cpp</itemPath>
+        <itemPath>../libst/STJoystick.cpp</itemPath>
+        <itemPath>../libst/STJoystick_linux.cpp</itemPath>
+        <itemPath>../libst/STMatrix4.cpp</itemPath>
+        <itemPath>../libst/STPoint2.cpp</itemPath>
+        <itemPath>../libst/STPoint3.cpp</itemPath>
+        <itemPath>../libst/STShaderProgram.cpp</itemPath>
+        <itemPath>../libst/STShape.cpp</itemPath>
+        <itemPath>../libst/STTexture.cpp</itemPath>
+        <itemPath>../libst/STTimer.cpp</itemPath>
+        <itemPath>../libst/STTriangleMesh.cpp</itemPath>
+        <itemPath>../libst/STVector2.cpp</itemPath>
+        <itemPath>../libst/STVector3.cpp</itemPath>
+        <itemPath>../libst/tiny_obj_loader.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>prog2_raytracer</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="../librt/Camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/Intersection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/Light.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/LinearSolver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/RGBR_f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/Ray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/RayTracer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/Scene.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/Shader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/Sphere.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/Surface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/Triangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../librt/utilities.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STColor3f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STColor4f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STColor4ub.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STFont.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STImage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STImage_jpeg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STImage_png.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STImage_ppm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STJoystick.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STJoystick_linux.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STMatrix4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STPoint2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STPoint3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STShaderProgram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STShape.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STTexture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STTimer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STTriangleMesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STVector2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/STVector3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../libst/tiny_obj_loader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <folder path="0">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>../libst/include</pElem>
+            <pElem>../librt/include</pElem>
+            <pElem>glew/include</pElem>
+            <pElem>../libst/ext/glew/include</pElem>
+            <pElem>../libst/ext</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="src/librt">
+        <ccTool>
+          <incDir>
+            <pElem>../librt</pElem>
+            <pElem>../librt/include</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../librt/ext/glew/include</pElem>
+            <pElem>../librt/ext/freetype/include</pElem>
+            <pElem>../libst/include</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="src/libst">
+        <ccTool>
+          <incDir>
+            <pElem>../libst</pElem>
+            <pElem>../libst/include</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>../libst/ext/glew/include</pElem>
+            <pElem>../libst/ext/freetype/include</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="mainsrc_proj2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

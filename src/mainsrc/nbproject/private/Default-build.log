@@ -1,0 +1,53 @@
+g++ -g -I. -I../libst/include -I../librt/include -Iglew/include -I../libst/ext/glew/include -I../libst/ext -o mainsrc_proj2.o -c mainsrc_proj2.cpp
+In file included from mainsrc_proj2.cpp:16:0:
+stglew.h:22:0: warning: "GLEW_STATIC" redefined [enabled by default]
+ #define GLEW_STATIC 1
+ ^
+mainsrc_proj2.cpp:15:0: note: this is the location of the previous definition
+ #define GLEW_STATIC
+ ^
+(cd ../libst; /usr/bin/make)
+make[1]: Entering directory `/home/mayank/Documents/UF Ubuntu/Computer Graphics/Improved/submit/src/libst'
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STColor3f.o -c STColor3f.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STColor4f.o -c STColor4f.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STColor4ub.o -c STColor4ub.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STFont.o -c STFont.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STImage.o -c STImage.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STImage_jpeg.o -c STImage_jpeg.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STImage_png.o -c STImage_png.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STImage_ppm.o -c STImage_ppm.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STPoint2.o -c STPoint2.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STPoint3.o -c STPoint3.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STJoystick.o -c STJoystick.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STMatrix4.o -c STMatrix4.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STShaderProgram.o -c STShaderProgram.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STShape.o -c STShape.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STTexture.o -c STTexture.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STTimer.o -c STTimer.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STVector2.o -c STVector2.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STVector3.o -c STVector3.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STTriangleMesh.o -c STTriangleMesh.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o tiny_obj_loader.o -c tiny_obj_loader.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include  -o STJoystick_linux.o -c STJoystick_linux.cpp
+ar -rc lib/libst.a STColor3f.o STColor4f.o STColor4ub.o STFont.o STImage.o STImage_jpeg.o STImage_png.o STImage_ppm.o STPoint2.o STPoint3.o STJoystick.o STMatrix4.o STShaderProgram.o STShape.o STTexture.o STTimer.o STVector2.o STVector3.o STTriangleMesh.o tiny_obj_loader.o STJoystick_linux.o 
+ranlib lib/libst.a
+make[1]: Leaving directory `/home/mayank/Documents/UF Ubuntu/Computer Graphics/Improved/submit/src/libst'
+(cd ../librt; /usr/bin/make)
+make[1]: Entering directory `/home/mayank/Documents/UF Ubuntu/Computer Graphics/Improved/submit/src/librt'
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o Camera.o -c Camera.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o Intersection.o -c Intersection.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o Light.o -c Light.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o LinearSolver.o -c LinearSolver.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o Ray.o -c Ray.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o RayTracer.o -c RayTracer.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o Scene.o -c Scene.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o Shader.o -c Shader.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o Sphere.o -c Sphere.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o Surface.o -c Surface.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o Triangle.o -c Triangle.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o utilities.o -c utilities.cpp
+g++ -g -I. -Iinclude -I/usr/include -Iext/glew/include -Iext/freetype/include -I../libst/include  -o RGBR_f.o -c RGBR_f.cpp
+ar -rc lib/librt.a Camera.o Intersection.o Light.o LinearSolver.o Ray.o RayTracer.o Scene.o Shader.o Sphere.o Surface.o Triangle.o utilities.o RGBR_f.o 
+ranlib lib/librt.a
+make[1]: Leaving directory `/home/mayank/Documents/UF Ubuntu/Computer Graphics/Improved/submit/src/librt'
+g++ -o prog2_raytracer mainsrc_proj2.o  -L../libst/lib -L../librt/lib -L/usr/lib64 -L/usr/lib -Lglew/lib -lst -lpng -ljpeg -lrt -lglut -lGL -lGLU -lGLEW 
